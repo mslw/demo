@@ -1,7 +1,7 @@
 import random
 
 def analyse():
-    pval = random.random()
+    pval = random.random()*0.5
     return pval
 
 def is_valid(pval):
